@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+body, html{
+width:100%;
+height:100%;
+overflow-x:hidden;
+box-sizing: border-box;
+margin: 0;
+font-family: 'Montserrat',sans-serif;
+}
+.bg{
+	
+	/* background-image:url("resume/pexels.jpg"); */
+	background-image:url("https://preview.colorlib.com/theme/glint/images/hero-bg.jpg");	
+	background-size: cover;
+	background-attachment: fixed;
+    height:600;
+	width:100%;
+	position: relative;
+	}
+
+.navbar{
+	background-color:transparent;
+	color:white;
+}
+.nav-link{
+	color:black!important;
+}
+
+.offcanvas-title{
+	color:black!important;
+}
+	
+
+.home_share_icons a{
+border: 2px solid #ffffff;
+border-radius: 100%;
+color: #ffffff!important;
+margin: .9rem;
+}
+
+.home_share_icons a .fab{
+color: #ffffff!important;
+padding: .9rem;
+}
+
+.welcome{
+	color:#606467;
+	font-weight:800;
+	font-size:1rem;
+	letter-spacing:.3rem;
+}
+.hero_text{
+	font-size: 2.5rem;
+	font-weight:700;
+
+}
+.hsection{
+	position: relative;
+}
+
+.hero_section .btn-outline-light {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 0.8rem;
+    padding-right: 1rem;
+    width: 12rem;
+    padding-left: 1rem;
+    letter-spacing: .15rem;
+    font-weight: 700;
+    font-size: .75rem;
+    color: rgb(240,240,240);
+    word-spacing: -0.15rem;
+}
+
+.hero_section .btn-outline-light:hover {
+  background-color: #3e8e41;
+  border-bottom-color:white;
+  color:white;
+}
+.about{
+	background-color:rgba(0,190,0,.6);
+	 height:700;
+	 text-align: center;
+}
+
+.welcome2{
+	padding-top:5rem;
+font-weight:800;
+	font-size:1rem;
+	letter-spacing:.3rem;	
+}
+.hero_section2 h5{
+	font-size:4rem;
+font-weight:700;
+color:white;
+	word-spacing:.3rem;
+border-bottom:1px solid #fff;
+padding-bottom:1.5rem;
+}
+.hero_section2 p{
+width:75%;
+font-size:2rem;
+padding-top:2rem;
+
+}
+.hero_section2 .counting .counter{
+border-right:1px solid #fff;
+}
+.welcome3{
+text-align:center;
+font-size:1.5rem;
+font-weight:700;
+color:primery;
+color:#39b54a;
+}
+.hero_section3_header{
+padding-top: 1.5rem;
+padding-bottom: 3rem;
+border-bottom: 1px solid rgb(240, 240,240);
+}
+.service{
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.hero_section3 p{
+text-align:center;
+font-size:3rem;
+padding-top:1rem;
+font-weight:800;
+word-spacing:.1rem;
+
+}
+.welcome4 {
+	padding-top: 3rem;
+}
+.welcome4 div h2{
+color:#000;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+ 
+
+.welcome4 div p{
+color: rgba(240, 240,240. .8);
+text-align: left;
+}
+.welcome5 h5{
+color:#39b54a;
+font-size:1.5rem;
+padding-top:8rem;
+}
+.welcome5 h2{
+color:white;
+font-size:2.5rem;
+border-bottom:.5px solid #fff;
+padding-bottom:1.5rem;
+font-weight:600;
+}
+.welcome6{
+text-align:center;
+color:#f0f8ff;
+background-color:transparent;
+  width: 500px;
+  border: 4px solid darkgray;
+  padding: 50px;
+  margin: 5px;
+  padding-bottom: 0;
+}
+.mm{
+position: relative;
+}
+.con-text{
+	color:#DAA520;
+}
+
+/*.order{
+	 margin-top:3;
+	margin-bottom:5;
+
+}*/
+.works{											/*about*/
+background-color:rgb(0,0,0, 1);
+height:600;
+}
+
+.pht{
+position: relative;
+transform: translateY(-200px);
+}
+.pht img{
+	max-width: 100%;
+}
+
+.cursur{
+	 background-color:rgba(0,205,0,.6);
+	 min-height:700;
+}
+
+.contact{
+	background-image:url("../images/black.jpg");
+	background-attachment: fixed;
+    background-size: cover	;
+    position: relative;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.shade1{
+	height: 100%;
+	width:100%;
+	background-color: rgba(0,0,0,.6);
+    position: absolute;
+
+}
+.share_top.fa-instagram, .share_top.fa-behance{
+	width: 10px;
+	height:10px;
+	
+}
+
+a.hov:hover {
+font-size: 150%;
+}
+
+.welcome4 .fab, .welcome4 .fas {
+	font-size: 3rem;
+	color:#39b54a;
+}
+
+.cursur {
+	background-color: #e6e6e6;
+
+}
+.cursur .our_clients{
+	color: #39b54a;
+	margin-top: 3rem;
+	font-weight: 600;
+}
+
+.cursur .our_client_desc{
+	width: 75%;
+	text-align: center;
+	font-weight: 600;
+	color: #000;
+	font-size: 4rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid rgb(240, 240,240);
+}
+
+.cursur .our_client_desc .carousel_slider {
+	padding-top: 2rem;
+}
+
+.carousel h5{
+ color: #555555;
+ font-size: 2rem;
+ width: 65%;
+ text-align: center;
+ line-height: 3rem;
+ font-weight: 300;
+ letter-spacing: .12rem;
+ font-family: 'Lora', sans-serif;
+}
+
+.carousel .img-fluid{
+	margin: 0 auto;
+	display: block;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: 2rem;
+}
+.carousel h6{
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+	margin-top: .5rem;
+
+}
+.carousel p{
+color: #555555;
+ font-size: .9rem;
+ font-weight: 500;
+ text-align: center;
+}
